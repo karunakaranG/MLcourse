@@ -1,0 +1,16 @@
+>> options=optimset('GradObj','on','MaxIter','100');
+>> initialTheta=zeros(2,1)
+initialTheta =
+
+   0
+   0
+
+>> [optTheta,functionVal,exitFlag]=fminunc(@costFunction,initialTheta,options)
+
+optTheta =
+
+   5.0000
+   5.0000
+
+functionVal =   1.5777e-030
+exitFlag =  1
